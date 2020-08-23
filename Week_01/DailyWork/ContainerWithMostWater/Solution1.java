@@ -7,6 +7,7 @@ package DailyWork.ContainerWithMostWater;
 public class Solution1 {
 
     public int maxArea(int[] height) {
+
         int max = 0;
         if (null == height || height.length <= 0) return max;
         int left = 0;
